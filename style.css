@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(acctes/purple.png);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+nav> ul{
+    float: right;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+nav> ul> li {
+    display: inline-block;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 6px 15px;   
+    cursor: pointer;
+}
+
+nav> ul> li:hover:not(.active){
+    background-color: rebeccapurple;
+}
+
+ul> .active{
+    background-color: purple;
+}
+
+.para1, .para2{
+    color: whitesmoke;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+.container{
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: large;
+    height: 70px;
+    width: 250px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 24px 28px;
+}
+
+.button:hover{
+    background-color: rgb(250, 72, 41);
+}
+
+footer{
+    background-image: url(acctes/bottom_color.png);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 450px;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-top: 90px;
+}
+
+.underline{
+    position: absolute;
+    left: 635px;
+    top: 135px;
+    width: 80px;
+}
+
+p{
+    text-align: center;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+div> h2{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.branding{
+    width: 21%;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.branding> img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.design{
+    width: 21%;
+    position: absolute;
+    top: 300px;
+    left: 370px;
+}
+
+.design> img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.development{
+    width: 21%;
+    position: absolute;
+    top: 300px;
+    left: 680px;
+}
+
+.development> img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+}
+
+.rocket-science{
+    width: 21%;
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+}
+
+.rocket-science> img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+}
